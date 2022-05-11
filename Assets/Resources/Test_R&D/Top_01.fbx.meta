@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 31a27d9e1786db54abe649045e5f7a18
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Top_01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_Reference
+      parentName: Top_01(Clone)
+      position: {x: -0, y: 0, z: -0.03639146}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_Hips
+      parentName: Avartar_Reference
+      position: {x: -0, y: 0.2837777, z: 0.01819573}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_Jnt_G
+      parentName: Avartar_Hips
+      position: {x: 0.2837777, y: 0.01819573, z: 6.705158e-17}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_side_L
+      parentName: body_bottom_Jnt_G
+      position: {x: -0.04895835, y: 0.31644627, z: -0.016731778}
+      rotation: {x: 0.008516657, y: -0.010430298, z: 0.632414, w: 0.77451354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_side_L_01
+      parentName: body_bottom_side_L
+      position: {x: -0.030508274, y: -0.00008872935, z: 0}
+      rotation: {x: 0, y: 0, z: -0.0011707086, w: 0.99999934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_side_L_02
+      parentName: body_bottom_side_L_01
+      position: {x: -0.03084245, y: -0.00006668248, z: 0}
+      rotation: {x: 0, y: 0, z: 0.019673822, w: 0.99980646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_back_L
+      parentName: body_bottom_Jnt_G
+      position: {x: -0.024150873, y: 0.3165826, z: -0.050095446}
+      rotation: {x: 0.11473745, y: 0.009585048, z: 0.67966825, w: 0.72442704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_back_L_01
+      parentName: body_bottom_back_L
+      position: {x: -0.029398981, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.0045191715, w: 0.9999898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_back_L_02
+      parentName: body_bottom_back_L_01
+      position: {x: -0.030067245, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.0028838655, w: 0.9999958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_back_R
+      parentName: body_bottom_Jnt_G
+      position: {x: 0.024865553, y: 0.31659272, z: -0.050085936}
+      rotation: {x: 0.6810225, y: 0.72203356, z: 0.120682836, w: 0.017650032}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_back_R_01
+      parentName: body_bottom_back_R
+      position: {x: -0.029447475, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.0049486654, w: 0.9999878}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_back_R_02
+      parentName: body_bottom_back_R_01
+      position: {x: -0.030089859, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.005955881, w: 0.9999823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_side_R
+      parentName: body_bottom_Jnt_G
+      position: {x: 0.04899816, y: 0.31637672, z: -0.01686767}
+      rotation: {x: 0.64467996, y: 0.7643176, z: 0.009262743, w: -0.010981693}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_side_R_01
+      parentName: body_bottom_side_R
+      position: {x: -0.029582947, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.01645355, w: 0.99986464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_side_R_02
+      parentName: body_bottom_side_R_01
+      position: {x: -0.030549927, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.010957143, w: 0.99994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_front_R
+      parentName: body_bottom_Jnt_G
+      position: {x: 0.02175711, y: 0.31546724, z: 0.017441431}
+      rotation: {x: 0.66998905, y: 0.7356214, z: -0.09420097, w: -0.0331988}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_front_R_01
+      parentName: body_bottom_front_R
+      position: {x: -0.029702136, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.027087707, w: 0.9996331}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_front_R_02
+      parentName: body_bottom_front_R_01
+      position: {x: -0.03111569, y: 0.00087363814, z: 0}
+      rotation: {x: 0, y: 0, z: -0.013470676, w: 0.9999093}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_front_L
+      parentName: body_bottom_Jnt_G
+      position: {x: -0.02212352, y: 0.31528622, z: 0.017458053}
+      rotation: {x: -0.10123009, y: -0.034768596, z: 0.68390334, w: 0.7216785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_front_L_01
+      parentName: body_bottom_front_L
+      position: {x: -0.030041758, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.012978624, w: 0.9999158}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_bottom_front_L_02
+      parentName: body_bottom_front_L_01
+      position: {x: -0.02972447, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.0041507194, w: 0.9999914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_Spine
+      parentName: Avartar_Hips
+      position: {x: -0.035789628, y: 0, z: -6.661338e-18}
+      rotation: {x: 1.110223e-16, y: -1.110223e-16, z: -1.9124107e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_Spine1
+      parentName: Avartar_Spine
+      position: {x: -0.059839804, y: 0, z: 2.3252434e-17}
+      rotation: {x: 1.110223e-16, y: -1.110223e-16, z: -1.9124107e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_LeftShoulder
+      parentName: Avartar_Spine1
+      position: {x: -0.03063844, y: 0, z: 0.02380644}
+      rotation: {x: -1.8073268e-16, y: 0.58093834, z: 0.000000018626451, w: 0.8139476}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_LeftArm
+      parentName: Avartar_LeftShoulder
+      position: {x: -0.029024078, y: 0, z: 0}
+      rotation: {x: 0.010831198, y: 0.19097194, z: 0.0005288708, w: 0.9815357}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_LeftForeArm
+      parentName: Avartar_LeftArm
+      position: {x: -0.07801182, y: 0, z: 0}
+      rotation: {x: -0.00041136137, y: -0.009081153, z: -0.038866516, w: 0.999203}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_LeftHand
+      parentName: Avartar_LeftForeArm
+      position: {x: -0.07624888, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_LeftForeArm_Adjust
+      parentName: Avartar_LeftForeArm
+      position: {x: 3.5527136e-17, y: -1.11022296e-17, z: 0}
+      rotation: {x: 1.6998842e-16, y: -2.7121863e-17, z: -4.510281e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_LeftArm_Adjust
+      parentName: Avartar_LeftArm
+      position: {x: 3.5527136e-17, y: -2.2204459e-17, z: 2.1316282e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_LeftShoulder_Adjust
+      parentName: Avartar_LeftShoulder
+      position: {x: -0, y: 2.220446e-18, z: 0}
+      rotation: {x: -2.220446e-16, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_RightShoulder
+      parentName: Avartar_Spine1
+      position: {x: -0.03063884, y: 0.000000028898508, z: -0.0238064}
+      rotation: {x: -0.5809307, y: -0.000000029802322, z: 0.8139531, w: 0.000000011175871}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_RightArm
+      parentName: Avartar_RightShoulder
+      position: {x: 0.029023949, y: 4.440892e-18, z: -0.0000005024903}
+      rotation: {x: 0.010830739, y: 0.19098307, z: 0.0005288947, w: 0.9815334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_RightForeArm
+      parentName: Avartar_RightArm
+      position: {x: 0.07801223, y: -0.000000034720486, z: 0.00000024261934}
+      rotation: {x: -0.00041141827, y: -0.0090830475, z: -0.03886552, w: 0.9992031}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_RightHand
+      parentName: Avartar_RightForeArm
+      position: {x: 0.07624862, y: 0.000000007987575, z: -0.00000039817007}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_RightForeArm_Adjust
+      parentName: Avartar_RightForeArm
+      position: {x: -1.9539925e-16, y: -4.440892e-18, z: -1.4210854e-15}
+      rotation: {x: -3.502019e-18, y: 1.1244816e-16, z: -5.2041704e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_RightArm_Adjust
+      parentName: Avartar_RightArm
+      position: {x: 3.5527136e-17, y: 0, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_RightShoulder_Adjust
+      parentName: Avartar_RightShoulder
+      position: {x: -0, y: 2.220446e-18, z: 0}
+      rotation: {x: 4.440892e-16, y: 6.7949134e-32, z: -7.688496e-21, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_Neck
+      parentName: Avartar_Spine1
+      position: {x: -0.059839804, y: 0, z: 1.7763568e-17}
+      rotation: {x: -2.6611107e-17, y: 5.606879e-17, z: -0.020511724, w: 0.9997896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_Head
+      parentName: Avartar_Neck
+      position: {x: -0.034395415, y: 1.7763567e-16, z: -3.2828145e-17}
+      rotation: {x: 2.7755576e-17, y: 2.16e-43, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_RightUpLeg
+      parentName: Avartar_Hips
+      position: {x: 0.026914729, y: 0.000000028898508, z: -0.0346785}
+      rotation: {x: -0.0035969177, y: 0.008243797, z: 0.017440664, w: 0.9998075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Avartar_LeftUpLeg
+      parentName: Avartar_Hips
+      position: {x: 0.02691477, y: -2.220446e-18, z: 0.034678508}
+      rotation: {x: -0.008242097, y: -0.0035997217, z: 0.9998075, w: -0.017439537}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_Top_008_002
+      parentName: Top_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

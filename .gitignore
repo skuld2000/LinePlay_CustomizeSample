@@ -262,26 +262,14 @@ __pycache__/
 # Edit at https://www.gitignore.io/?templates=unity
 
 ### Unity ###
-[Cc]lient/[Ll]ibrary/
+[Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Aa]ssets/AssetStoreTools*
-[Cc]lient/[Uu]serSettings/
-
-# Unity Addressable Asset Datas
-[Cc]lient/ServerData/
-[Cc]lient/Assets/AddressableAssetsData/Android/
-[Cc]lient/Assets/AddressableAssetsData/Android.meta
-[Cc]lient/Assets/AddressableAssetsData/IOS/
-[Cc]lient/Assets/AddressableAssetsData/IOS.meta
-[Cc]lient/Assets/AddressableAssetsData/OSX/
-[Cc]lient/Assets/AddressableAssetsData/OSX.meta
-[Cc]lient/Assets/AddressableAssetsData/Windows/
-[Cc]lient/Assets/AddressableAssetsData/Windows.meta
-
+[Uu]serSettings/
+[Rr]ecordings/
 
 # Gradle cache directory
 .gradle/

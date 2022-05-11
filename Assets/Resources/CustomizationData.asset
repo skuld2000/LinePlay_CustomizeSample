@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d8c9f95f28677439b1e217710e83bc, type: 3}
+  m_Name: CustomizationData
+  m_EditorClassIdentifier: 
+  shirtsPrefabs:
+  - {fileID: 1502930932560933245, guid: 9e64da18f1cad034dbbd915e37dffbfb, type: 3}
+  - {fileID: 438702131206746865, guid: e22ce78e39303a34c8c312ecfde99e05, type: 3}
