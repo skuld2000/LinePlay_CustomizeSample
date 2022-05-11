@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: c52bdcd8034f5c3438aaaa36d6f0b6d9
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Facial_ani(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_Grp
+      parentName: Facial_ani(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mouth_grp
+      parentName: Head_Grp
+      position: {x: -0.0000000012612352, y: 1.4732102, z: 0.07085193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Up_Teeth_Geo
+      parentName: Mouth_grp
+      position: {x: 0.0000000012612352, y: -1.4732102, z: -0.07085193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dn_Teeth_Geo
+      parentName: Mouth_grp
+      position: {x: 0.0000000012612352, y: -1.4732102, z: -0.07085193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.93297654, y: 1, z: 1}
+    - name: Tongue_Geo
+      parentName: Mouth_grp
+      position: {x: 0.0000000012612352, y: -1.4732102, z: -0.07085193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye_Grp
+      parentName: Head_Grp
+      position: {x: -0, y: 1.5393219, z: 0.055268414}
+      rotation: {x: 0.018337673, y: -0, z: -0, w: 0.99983186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyeL
+      parentName: Eye_Grp
+      position: {x: -0, y: -1.545054, z: -0.055268414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye_in
+      parentName: eyeL
+      position: {x: -0.030984635, y: 1.545054, z: 0.055268414}
+      rotation: {x: 0.74248683, y: -0.07546612, z: 0.077924564, w: 0.66101885}
+      scale: {x: 1.2948189, y: 1.2948189, z: 1.2948189}
+    - name: eye_out
+      parentName: eyeL
+      position: {x: -0.030984635, y: 1.545054, z: 0.055268414}
+      rotation: {x: 0.74248683, y: -0.07546612, z: 0.077924564, w: 0.66101885}
+      scale: {x: 1.3026347, y: 1.3026347, z: 1.3026347}
+    - name: eyeLR
+      parentName: Eye_Grp
+      position: {x: -0, y: -1.5421879, z: -0.055268414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye_in 1
+      parentName: eyeLR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye_out 1
+      parentName: eyeLR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyeLash_Geo
+      parentName: Head_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face_Grp
+      parentName: Head_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face_Geo
+      parentName: Face_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyebrow_Geo
+      parentName: Face_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mouth_Grp
+      parentName: Facial_ani(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: surprise_Mouth
+      parentName: Mouth_Grp
+      position: {x: -0.0000000012612352, y: 1.4732102, z: 0.07085193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Up_Teeth_Geo 1
+      parentName: surprise_Mouth
+      position: {x: 0.0000000012612352, y: -1.4732102, z: -0.07085193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dn_Teeth_Geo 1
+      parentName: surprise_Mouth
+      position: {x: 0.0000000012612352, y: -1.485241, z: -0.07855503}
+      rotation: {x: 0.10912872, y: -0, z: -0, w: 0.9940277}
+      scale: {x: 0.93297654, y: 1, z: 1}
+    - name: Tongue_Geo 2
+      parentName: surprise_Mouth
+      position: {x: 0.0000000012612352, y: -1.4867641, z: -0.0799139}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: smileBig_Mouth
+      parentName: Mouth_Grp
+      position: {x: -0.0000000012612352, y: 1.4732102, z: 0.07085193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TeethUP_Geo
+      parentName: smileBig_Mouth
+      position: {x: 0.0000000012612352, y: -1.4713434, z: -0.06818514}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TeethLO_Geo
+      parentName: smileBig_Mouth
+      position: {x: 0.0000000012612352, y: -1.4707026, z: -0.075819544}
+      rotation: {x: 0.121287294, y: -0, z: -0, w: 0.9926175}
+      scale: {x: 0.93297654, y: 1, z: 1}
+    - name: Tongue_Geo 1
+      parentName: smileBig_Mouth
+      position: {x: 0.0000000012612352, y: -1.4883791, z: -0.07632354}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: Facial_ani(Clone)
+      position: {x: -0, y: 1.390379, z: -0.018472198}
+      rotation: {x: -0.429549, y: 0.5616829, z: -0.429549, w: 0.5616829}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck_01
+      parentName: Spine
+      position: {x: -0.04090991, y: 7.1054265e-17, z: 0}
+      rotation: {x: -2.8275533e-27, y: -7.503425e-19, z: -0.012254, w: 0.99992496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Neck_01
+      position: {x: -0.030779159, y: -4.973799e-16, z: 4.437343e-33}
+      rotation: {x: 2.5420547e-25, y: -4.780996e-18, z: -0.07807961, w: 0.99694717}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_end
+      parentName: Head
+      position: {x: -0.087167986, y: 5.1514347e-16, z: -5.4105196e-32}
+      rotation: {x: -2.9003425e-25, y: -1.8791995e-18, z: -0.030689599, w: 0.99952894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Eyeball
+      parentName: Head_end
+      position: {x: 0.0061848997, y: -0.04851354, z: -0.03098464}
+      rotation: {x: 0.49426082, y: -0.5056741, z: 0.49426082, w: 0.5056741}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Eyeball_Adjust
+      parentName: L_Eyeball
+      position: {x: -0, y: 2.842171e-16, z: 8.881784e-18}
+      rotation: {x: -5.030698e-16, y: 4.186367e-18, z: -1.0969744e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Eyeball
+      parentName: Head_end
+      position: {x: 0.0061869505, y: -0.04851357, z: 0.0309846}
+      rotation: {x: 0.5056741, y: 0.49426082, z: 0.5056741, w: -0.49426082}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Eyeball_Adjust
+      parentName: R_Eyeball
+      position: {x: -0, y: 0, z: 8.881784e-18}
+      rotation: {x: -3.5838705e-16, y: -4.186367e-18, z: 1.0969744e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nose
+      parentName: Head_end
+      position: {x: 0.04390441, y: -0.1051752, z: -0.000003888551}
+      rotation: {x: 0.49426082, y: -0.5056741, z: 0.49426082, w: 0.5056741}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nose_Adjust
+      parentName: Nose
+      position: {x: -0, y: 0, z: -1.776357e-17}
+      rotation: {x: -5.030698e-16, y: 4.186367e-18, z: -1.0969744e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_eye
+      parentName: Head_end
+      position: {x: 0.0061848997, y: -0.04851354, z: -0.03098464}
+      rotation: {x: 0.49426082, y: -0.5056741, z: 0.49426082, w: 0.5056741}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_eye_Adjust
+      parentName: L_eye
+      position: {x: -0, y: 2.842171e-16, z: 8.881784e-18}
+      rotation: {x: -5.030698e-16, y: 4.186367e-18, z: -1.0969744e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_eye
+      parentName: Head_end
+      position: {x: 0.0061869505, y: -0.04851357, z: 0.0309846}
+      rotation: {x: 0.5056741, y: 0.49426082, z: 0.5056741, w: -0.49426082}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_eye_Adjust
+      parentName: R_eye
+      position: {x: -0, y: 0, z: 8.881784e-18}
+      rotation: {x: 2.0816682e-16, y: -4.186367e-18, z: 1.0969744e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
