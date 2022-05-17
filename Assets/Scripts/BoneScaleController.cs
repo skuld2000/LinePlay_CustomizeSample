@@ -166,11 +166,11 @@ public class BoneScaleController : MonoBehaviour
 
 	private void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKeyDown(KeyCode.A))
 		{
 			animator.SetTrigger("isAni1");
 		}
-		else if (Input.GetKeyDown(KeyCode.Return))
+		else if (Input.GetKeyDown(KeyCode.S))
 		{
 			animator.SetTrigger("isAni2");
 		}
