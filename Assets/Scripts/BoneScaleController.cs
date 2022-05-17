@@ -27,6 +27,15 @@ public class BoneScaleController : MonoBehaviour
 	[SerializeField] Transform rightForeArmAdjust;
 	[SerializeField] Transform rightHand;
 
+	[Header("LeftFoot")]
+	[SerializeField] Transform leftFoot;
+	[SerializeField] Transform leftToe;
+
+	[Header("RightFoot")]
+	[SerializeField] Transform rightFoot;
+	[SerializeField] Transform rightToe;
+	float origPos = 0.0f;
+
 	Slider heightSlider;
 	Slider headSizeSlider;
 	Slider armWidthSlider;
@@ -56,6 +65,8 @@ public class BoneScaleController : MonoBehaviour
 		armSizeSlider.onValueChanged.AddListener(delegate { ChangeArmSize(); });
 		upperMuscleSlider = GameObject.Find("UpperMuscleSlider").GetComponent<Slider>();
 		upperMuscleSlider.onValueChanged.AddListener(delegate { ChangeUpperMuscle(); });
+
+		origPos = root.transform.localPosition.y;
 	}
 	public void ChangeHeight()
 	{
@@ -104,6 +115,53 @@ public class BoneScaleController : MonoBehaviour
 	{
 		leftShoulder.localPosition = new Vector3(leftShoulder.localPosition.x, leftShoulder.localPosition.y, leftShoulder.localPosition.z + ((upperMuscleSlider.value * 0.02f) - 0.01f));
 		rightShoulder.localPosition = new Vector3(rightShoulder.localPosition.x, rightShoulder.localPosition.y, rightShoulder.localPosition.z + ((upperMuscleSlider.value * -0.02f) + 0.01f));
+
+		UpdateHeel();
+	}
+
+	[SerializeField] public float heelRotate = 0;
+	[SerializeField] public float heelHight = 0;
+
+	void UpdateHeel()
+	{
+		UpdateHeel(leftFoot, leftToe, true);
+		UpdateHeel(rightFoot, rightToe, false);
+
+		if (heelHight != 0.0f)
+		{
+			var pos = root.transform.localPosition;
+			pos.y = origPos + heelHight;
+			root.transform.localPosition = pos;
+		}
+	}
+
+	void UpdateHeel(Transform foot, Transform toe, bool isLeft)
+	{
+		if (foot != null)
+		{
+			Vector3 rotate = new Vector3(0.0f, 0.0f, 0.0f);
+
+			var origValue = foot.eulerAngles;
+			rotate.z = isLeft == true ? heelRotate : -heelRotate;
+			origValue += rotate;
+			foot.eulerAngles = origValue;
+		}
+
+		if (toe != null)
+		{
+			Vector3 rotate = new Vector3(180.0f, 180.0f, 180.0f);
+
+			var origValue = toe.eulerAngles;
+			rotate.z = 180.0f + heelRotate;
+			origValue += rotate;
+			toe.eulerAngles = origValue;
+		}
+	}
+
+	public void ChangeHighHeel(float rotate, float hight)
+	{
+		heelRotate = rotate;
+		heelHight = hight;
 	}
 
 	private void Update()
@@ -112,7 +170,7 @@ public class BoneScaleController : MonoBehaviour
 		{
 			animator.SetTrigger("isAni1");
 		}
-		else if(Input.GetKeyDown(KeyCode.Return))
+		else if (Input.GetKeyDown(KeyCode.Return))
 		{
 			animator.SetTrigger("isAni2");
 		}

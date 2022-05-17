@@ -31,4 +31,7 @@ public class CustomizationData : ScriptableObject
 
 	[Header("ChangeCloth")]
 	public GameObject[] shirtsPrefabs;
+
+	[Header("ChangeShoes")]
+	public ShoesInfo[] shoesInfos;
 }

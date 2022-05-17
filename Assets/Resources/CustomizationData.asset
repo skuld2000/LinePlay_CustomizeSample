@@ -15,3 +15,7 @@ MonoBehaviour:
   shirtsPrefabs:
   - {fileID: 1502930932560933245, guid: 9e64da18f1cad034dbbd915e37dffbfb, type: 3}
   - {fileID: 438702131206746865, guid: e22ce78e39303a34c8c312ecfde99e05, type: 3}
+  shoesInfos:
+  - {fileID: 6151897847441674409, guid: d10ce76a16fd34d2299161d53ba6f788, type: 3}
+  - {fileID: 2217337288737970195, guid: 7c03b1f75ebd94036a1dab7e0a41aa74, type: 3}
+  - {fileID: 4901035775174625341, guid: 29162c789021b4809a025f93fe512df5, type: 3}
